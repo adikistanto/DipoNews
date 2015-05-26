@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_700">#646464</color>
+    <color name="black">#000000</color>
+    <color name="news_light_blue">#ff64c2f4</color>
+    <color name="news_blue">#ff1ca8f4</color>
+    <color name="news_dark_blue">#0288D1</color>
+    <color name="news_green">#249A46</color>
+    <color name="brown">#FFBB8A68</color>
+    <color name="blue">#FF303279</color>
+    <color name="blue_young">#FF1346E8</color>
+
+</resources>

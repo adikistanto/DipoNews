@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:layout_marginTop="1dip"
+    android:id="@+id/item_news">
+
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/list_item_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/arrow"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:text="Title news Just gona stand there and ..."
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dip" />
+
+    <!-- Artist Name -->
+
+    <TextView
+        android:id="@+id/list_item_date_textview"
+        android:layout_width="120dip"
+        android:layout_height="12dip"
+        android:layout_below="@id/list_item_title_textview"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_marginTop="1dip"
+        android:text="Just gona stand there and ..."
+        android:layout_marginLeft="5dip" />
+
+    <!-- Rightend Arrow -->
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_next"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/arrow" />
+
+</RelativeLayout>

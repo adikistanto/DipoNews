@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListPreference
+        android:key="@string/pref_source_key"
+        android:title="@string/pref_source_label"
+        android:defaultValue="@string/pref_source_undip"
+        android:entryValues="@array/pref_source_values"
+        android:entries="@array/pref_source_options"
+        />
+    <CheckBoxPreference
+        android:title="@string/pref_enable_notifications_label"
+        android:key="@string/pref_enable_notifications_key"
+        android:summaryOff="@string/pref_enable_notifications_false"
+        android:summaryOn="@string/pref_enable_notifications_true"
+        android:defaultValue="@string/pref_enable_notifications_default" />
+    <Preference
+        android:selectable="true"
+        android:enabled="true"
+        android:key="example_key"
+        android:title="Dipo News Version"
+        android:summary="1.0.0"/>
+    <Preference
+        android:selectable="true"
+        android:enabled="true"
+        android:key="example_key"
+        android:title="Developer"
+        android:summary="adikistanto@if.undip.ac.id"/>
+</PreferenceScreen>

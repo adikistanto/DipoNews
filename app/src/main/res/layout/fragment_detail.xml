@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detail_icon" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:nestedScrollingEnabled="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detail_title_textview"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal|left|top"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="3dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+
+                android:layout_marginLeft="10dip"
+                android:textColor="#bb000000" />
+
+            <TextView
+                android:layout_width="150dip"
+                android:layout_height="15dip"
+                android:id="@+id/detail_date_textview"
+                android:textStyle="italic"
+                android:textSize="12dp"
+                android:layout_marginLeft="10dip"
+                android:layout_marginBottom="10dip" />
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/detail_content_web"
+                android:background="#ffb7ffc7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sumber_berita"
+                android:text="Link sumber berita :"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detail_link_textview"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="1dip"
+                android:layout_marginBottom="10dip"
+                android:linksClickable="true"
+                android:clickable="true"
+                android:autoLink="web" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_source_options">
+        <item>@string/pref_source_label_undip</item>
+        <item>@string/pref_source_label_ft</item>
+        <item>@string/pref_source_label_fsm</item>
+        <item>@string/pref_source_label_feb</item>
+        <item>@string/pref_source_label_fpp</item>
+        <item>@string/pref_source_label_fisip</item>
+        <item>@string/pref_source_label_fib</item>
+        <item>@string/pref_source_label_mesin</item>
+        <item>@string/pref_source_label_elektro</item>
+        <item>@string/pref_source_label_siskom</item>
+        <item>@string/pref_source_label_kapal</item>
+        <item>@string/pref_source_label_arsitek</item>
+        <item>@string/pref_source_label_tekim</item>
+        <item>@string/pref_source_label_if</item>
+        <item>@string/pref_source_label_fisika</item>
+        <item>@string/pref_source_label_matematika</item>
+        <item>@string/pref_source_label_biologi</item>
+        <item>@string/pref_source_label_gizi</item>
+        <item>@string/pref_source_label_iesp</item>
+        <item>@string/pref_source_label_akutansi</item>
+    </string-array>
+    <string-array name="pref_source_values">
+        <item>@string/pref_source_undip</item>
+        <item>@string/pref_source_ft</item>
+        <item>@string/pref_source_fsm</item>
+        <item>@string/pref_source_feb</item>
+        <item>@string/pref_source_fpp</item>
+        <item>@string/pref_source_fisip</item>
+        <item>@string/pref_source_fib</item>
+        <item>@string/pref_source_mesin</item>
+        <item>@string/pref_source_elektro</item>
+        <item>@string/pref_source_siskom</item>
+        <item>@string/pref_source_kapal</item>
+        <item>@string/pref_source_arsitek</item>
+        <item>@string/pref_source_tekim</item>
+        <item>@string/pref_source_if</item>
+        <item>@string/pref_source_fisika</item>
+        <item>@string/pref_source_matematika</item>
+        <item>@string/pref_source_biologi</item>
+        <item>@string/pref_source_gizi</item>
+        <item>@string/pref_source_iesp</item>
+        <item>@string/pref_source_akutansi</item>
+    </string-array>
+</resources>
