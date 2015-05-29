@@ -21,11 +21,10 @@ import android.widget.ListView;
 
 import com.istandev.diponews.data.DipoContract.NewsEntry;
 
-//import android.widget.SimpleCursorAdapter;
-
 /**
  * Created by ADIK on 24/04/2015.
  */
+
 public class NewsFragment extends Fragment implements LoaderCallbacks<Cursor> {
     private static final String LOG_TAG = NewsFragment.class.getSimpleName();
     private SimpleCursorAdapter mNewsAdapter;
@@ -161,14 +160,6 @@ public class NewsFragment extends Fragment implements LoaderCallbacks<Cursor> {
         return rootView;
     }
     private void updateNews() {
-        String undip = "http://undip.ac.id/index.php?format=feed&type=rss";
-        String ui = "http://www.ui.ac.id/feed/";
-        String itb = "http://www.itb.ac.id/news/rss";
-        String ugm = "http://www.ugm.ac.id/id/news/feed.xml";
-        String unibraw = "http://www.ub.ac.id/berita/rss";
-        String unpad = "http://www.unpad.ac.id/feed/";
-        String ipb = "http://news.ipb.ac.id/news/rss?culture=id";
-
         String univType = Utility.getPreferredLocation(getActivity());
         new FecthingNews(getActivity()).execute(univType);
 
