@@ -98,6 +98,9 @@ public class NewsFragment extends Fragment implements LoaderCallbacks<Cursor> {
             Intent intent = new Intent(getActivity(),SettingActivity.class);
             startActivity(intent);
             return true;}
+        else if (id == R.id.action_refresh) {
+            updateNews();
+            return true;}
         return super.onOptionsItemSelected(item);
     }
     @Override
@@ -162,15 +165,13 @@ public class NewsFragment extends Fragment implements LoaderCallbacks<Cursor> {
     private void updateNews() {
         String univType = Utility.getPreferredLocation(getActivity());
         new FecthingNews(getActivity()).execute(univType);
-
         }
 
     @Override
-    public void onStart() {
-           super.onStart();
-          updateNews();
-
+    public void onStart(){
+        super.onStart();
     }
+
     @Override
     public void onResume() {
         super.onResume();
