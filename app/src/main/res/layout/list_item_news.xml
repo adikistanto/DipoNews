@@ -5,17 +5,16 @@
     android:orientation="horizontal"
     android:padding="5dip"
     android:layout_marginTop="1dip"
-    android:id="@+id/item_news"
-    android:background="@drawable/touch_selector">
+    android:id="@+id/item_news">
 
     <TextView
         android:id="@+id/list_item_title_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@+id/arrow"
-        android:textColor="#040404"
+        android:textColor="@android:color/primary_text_light"
         android:typeface="sans"
-        android:textSize="15dip"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:text="Title news Just gona stand there and ..."
         android:layout_alignParentLeft="true"
@@ -28,7 +27,7 @@
         android:layout_width="120dip"
         android:layout_height="12dip"
         android:layout_below="@id/list_item_title_textview"
-        android:textColor="#343434"
+        android:textColor="@android:color/secondary_text_light"
         android:textSize="10dip"
         android:layout_marginTop="1dip"
         android:text="Just gona stand there and ..."
